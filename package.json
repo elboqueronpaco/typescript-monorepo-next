@@ -8,8 +8,8 @@
   ],
   "scripts": {
     "dev" : "yarn workspace @elboqueronpaco/app-web dev",
-    "build" : "yarn --cwd apps app/app-web build",
-    "start" : "yarn --cwd apps app/app-web start"
+    "build" : "yarn workspace @elboqueronpaco/app-web build",
+    "start" : "yarn workspace @elboqueronpaco/app-web start"
 
   },
   "repository": "https://github.com/elboqueronpaco/typescript-monorepo-next.git",
